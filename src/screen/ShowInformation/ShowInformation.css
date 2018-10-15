@@ -1,0 +1,33 @@
+.tabs .tab a {
+    color:#000000;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 48px;
+    text-align: center;
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+
+  .tabs .tab.disabled a  , .tabs .tab.disabled a:hover  {
+    color: rgba(197, 197, 197, 0.7);
+    cursor: not-allowed;
+    height: 100%;
+    font-size: 22px;
+    padding-left: 70px;
+}
+
+
+
+/* .tabs .tab.disabled a :hover , .tabs .tab.disabled :hover  {
+    color: rgba(168, 168, 168, 0.7);
+    cursor: default;
+    height: 100%;
+    font-size: 22px;
+    padding-left: 70px;
+} */
